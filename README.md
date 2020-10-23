@@ -11,7 +11,7 @@ The code for each task, with additional details on how to use it, can be found i
 Please consider citing the following [paper](https://arxiv.org/abs/2009.05603) as a thank you to the authors: 
 ```
 @article{avram2020upb,
-  title={UPB at SemEval-2020 Task 6: Pretrained Language Models for DefinitionExtraction},
+  title={UPB at SemEval-2020 Task 6: Pretrained Language Models for Definition Extraction},
   author={Avram, Andrei-Marius and Cercel, Dumitru-Clementin and Chiru, Costin-Gabriel},
   journal={arXiv preprint arXiv:2009.05603},
   year={2020}
