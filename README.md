@@ -53,7 +53,7 @@ Fine-tuned Multi-task | 25.7 | 25.2 | 25.5 | - | - | - |
 Please consider citing the following [paper](https://arxiv.org/abs/2009.05603) as a thank you to the authors: 
 ```
 @article{avram2020upb,
-  title={UPB at SemEval-2020 Task 6: Pretrained Language Models for Definition Extraction},
+  title={UPB at SemEval-2020 Task 6: Pretrained Language Models for DefinitionExtraction},
   author={Avram, Andrei-Marius and Cercel, Dumitru-Clementin and Chiru, Costin-Gabriel},
   journal={arXiv preprint arXiv:2009.05603},
   year={2020}
