@@ -29,7 +29,7 @@ Frozen SciBERT | 71.7 | 80.6 | 75.9 | - | - | - |
 Frozen XLNet | 66.8 | 70.8 | 68.7 | - | - | - |
 Frozen ALBERT | 77.2 | 69.3 | 73.0 | - | - | - |
 Fine-tuned BERT | 78.4 | 84.1 | 81.2 | - | - | - |
-Fine-tuned RoBERTa | 78.2 | 84.5 | 81.3 | 75.0 | 80.6 | 77.7 |
+Fine-tuned RoBERTa | **78.2** | **84.5** | **81.3** | **75.0** | **80.6** | **77.7** |
 Fine-tuned SciBERT | 79.4 | 79.7 | 79.6 | - | - | - |
 Fine-tuned XLNet | 75.5 | 85.2 | 80.1 | - | - | - |
 Fine-tuned ALBERT | 69.5 | 85.9 | 76.8 | - | - | - |
@@ -44,7 +44,7 @@ Frozen SciBERT+CRF | 29.0 | 37.5 | 26.2 | - | - | - |
 Frozen XLNet+CRF | 29.6 | 33.4 | 26.8 | - | - | - |
 Frozen Multi-task | 4.0 | 8.9 | 8.0 | - | - | - |
 Fine-tuned BERT+CRF | 47.9 | 51.7 | 45.6 | - | - | - |
-Fine-tuned RoBERTa+CRF | 41.4 | 66.4 | 46.0 | 39.4 | 55.6 | 43.9 |
+Fine-tuned RoBERTa+CRF | **41.4** | **66.4** | **46.0** | **39.4** | **55.6** | **43.9** |
 Fine-tuned SciBERT+CRF | 46.7 | 46.6 | 41.7 | - | - | - |
 Fine-tuned XLNet+CRF | 33.0 | 58.5 | 39.2 | - | - | - |
 Fine-tuned Multi-task | 25.7 | 25.2 | 25.5 | - | - | - |
