@@ -5,11 +5,11 @@ submitted by the team at University Politehnica of Bucharest (UPB).
 
 We fined-tuned frozen and non-frozen Transformer-based language models using the [HuggingFace](https://github.com/huggingface/transformers) framework, together with a multi-task model that jointly predicts the outputs for the second and the third task.
 
+The code for each task, with additional details on how to use it, can be found in task1 and task2 directories.
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/avramandrei/DeftEval/master/resources/multitask_system.png">
 </p>
-
-The code for each task, with additional details on how to use it, can be found in **task1** and **task2** directories.
 
 ## Installation
 
