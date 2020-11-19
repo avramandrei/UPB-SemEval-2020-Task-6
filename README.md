@@ -1,7 +1,6 @@
 # DeftEval
 
-This repository contains the source code for the first and the second task of [DeftEval 2020 competition](https://competitions.codalab.org/competitions/22759)
-submitted by the team at University Politehnica of Bucharest (UPB).
+This repository contains the source code for the first and the second task of [DeftEval 2020 competition](https://competitions.codalab.org/competitions/22759), used by the University Politehnica of Bucharest (UPB) team to train and evaluate the models.
 
 We fined-tuned frozen and non-frozen Transformer-based language models using the [HuggingFace](https://github.com/huggingface/transformers) framework, together with a multi-task model that jointly predicts the outputs for the second and the third task.
 
