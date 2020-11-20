@@ -1,4 +1,4 @@
-# DeftEval
+# UPB SemEval 2020 Task 6
 
 This repository contains the source code for the first and the second task of [DeftEval 2020 competition](https://competitions.codalab.org/competitions/22759), used by the University Politehnica of Bucharest (UPB) team to train and evaluate the models.
 
