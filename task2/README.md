@@ -5,7 +5,8 @@ Firstly, download the Deft corpus from [here](https://github.com/adobe-research/
 Then start training using the `train.py` script.
 
 ```
-python3 train.py [-h] [--hidden_size HIDDEN_SIZE] [--device DEVICE] [--batch_size BATCH_SIZE] lang_model train_data dev_data fine_tune
+python3 train.py [-h] [--hidden_size HIDDEN_SIZE] [--device DEVICE] [--batch_size BATCH_SIZE] 
+                 lang_model train_data dev_data fine_tune
 ```
 
 To generate a file in submission's format run the `generate_evalfile.py` script.
