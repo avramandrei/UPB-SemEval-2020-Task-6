@@ -49,22 +49,20 @@ Fine-tuned XLNet+CRF | 33.0 | 58.5 | 39.2 | - | - | - |
 Fine-tuned Multi-task | 25.7 | 25.2 | 25.5 | - | - | - |
 
 ## Cite
-Please consider citing the following [paper](https://www.aclweb.org/anthology/2020.fnp-1.8.pdf) as a thank you to the authors: 
+Please consider citing the following [paper](https://www.aclweb.org/anthology/2020.semeval-1.97.pdf) as a thank you to the authors: 
 ```
-@inproceedings{ionescu-etal-2020-upb,
-    title = "{UPB} at {F}in{C}ausal-2020, Tasks 1 {\&} 2: Causality Analysis in Financial Documents using Pretrained Language Models",
-    author = "Ionescu, Marius  and
-      Avram, Andrei-Marius  and
-      Dima, George-Andrei  and
+@inproceedings{avram-etal-2020-upb,
+    title = "{UPB} at {S}em{E}val-2020 Task 6: Pretrained Language Models for Definition Extraction",
+    author = "Avram, Andrei-Marius  and
       Cercel, Dumitru-Clementin  and
-      Dascalu, Mihai",
-    booktitle = "Proceedings of the 1st Joint Workshop on Financial Narrative Processing and MultiLing Financial Summarisation",
+      Chiru, Costin",
+    booktitle = "Proceedings of the Fourteenth Workshop on Semantic Evaluation",
     month = dec,
     year = "2020",
-    address = "Barcelona, Spain (Online)",
-    publisher = "COLING",
-    url = "https://www.aclweb.org/anthology/2020.fnp-1.8",
-    pages = "55--59",
-    abstract = "Financial causality detection is centered on identifying connections between different assets from financial news in order to improve trading strategies. FinCausal 2020 - Causality Identification in Financial Documents {--} is a competition targeting to boost results in financial causality by obtaining an explanation of how different individual events or chain of events interact and generate subsequent events in a financial environment. The competition is divided into two tasks: (a) a binary classification task for determining whether sentences are causal or not, and (b) a sequence labeling task aimed at identifying elements related to cause and effect. Various Transformer-based language models were fine-tuned for the first task and we obtained the second place in the competition with an F1-score of 97.55{\%} using an ensemble of five such language models. Subsequently, a BERT model was fine-tuned for the second task and a Conditional Random Field model was used on top of the generated language features; the system managed to identify the cause and effect relationships with an F1-score of 73.10{\%}. We open-sourced the code and made it available at: https://github.com/avramandrei/FinCausal2020.",
+    address = "Barcelona (online)",
+    publisher = "International Committee for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.semeval-1.97",
+    pages = "737--745",
+    abstract = "This work presents our contribution in the context of the 6th task of SemEval-2020: Extracting Definitions from Free Text in Textbooks (DeftEval). This competition consists of three subtasks with different levels of granularity: (1) classification of sentences as definitional or non-definitional, (2) labeling of definitional sentences, and (3) relation classification. We use various pretrained language models (i.e., BERT, XLNet, RoBERTa, SciBERT, and ALBERT) to solve each of the three subtasks of the competition. Specifically, for each language model variant, we experiment by both freezing its weights and fine-tuning them. We also explore a multi-task architecture that was trained to jointly predict the outputs for the second and the third subtasks. Our best performing model evaluated on the DeftEval dataset obtains the 32nd place for the first subtask and the 37th place for the second subtask. The code is available for further research at: \url{https://github.com/avramandrei/DeftEval}",
 }
 ```
