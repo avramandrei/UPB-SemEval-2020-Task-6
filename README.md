@@ -49,7 +49,7 @@ Fine-tuned XLNet+CRF | 33.0 | 58.5 | 39.2 | - | - | - |
 Fine-tuned Multi-task | 25.7 | 25.2 | 25.5 | - | - | - |
 
 ## Cite
-Please consider citing the following [paper](https://www.aclweb.org/anthology/2020.semeval-1.97.pdf) as a thank you to the authors: 
+If you are using this repository, please consider citing the following [paper](https://www.aclweb.org/anthology/2020.semeval-1.97.pdf) as a thank you to the authors: 
 ```
 @inproceedings{avram-etal-2020-upb,
     title = "{UPB} at {S}em{E}val-2020 Task 6: Pretrained Language Models for Definition Extraction",
